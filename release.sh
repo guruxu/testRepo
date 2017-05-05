@@ -29,4 +29,4 @@ echo curl -sS -H "Content-Type: text/plain" \
      https://uploads.github.com/repos/guruxu/testRepo/releases/${REL_ID}/assets?name=rosette-elasticsearch-plugin-${ELASTIC_VERSION}.0.txt&access_token=${ACCESS_TOKEN}
 
 echo "Push changes to github ..."
-git push -u
+git push --set-upstream origin master
